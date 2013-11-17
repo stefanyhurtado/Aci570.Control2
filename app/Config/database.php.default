@@ -67,7 +67,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'database_name',
+		'database' => 'oli',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
@@ -78,7 +78,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'test_database_name',
+		'database' => 'oli',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
