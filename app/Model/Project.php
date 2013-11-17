@@ -21,7 +21,7 @@ class Project extends AppModel {
  * @var array
  */
 	public $validate = array(
-	            'name' => array(
+		'name' => array(
 			'notEmpty' => array(
 				'rule' => array('notEmpty'),
 				//'message' => 'Your custom message here',
@@ -30,9 +30,10 @@ class Project extends AppModel {
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
-                 'description' => array(
-			'notEmpaty' => array(
-				'rule' => array('notEmpaty'),
+		),
+		'description' => array(
+			'notEmpty' => array(
+				'rule' => array('notEmpty'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
